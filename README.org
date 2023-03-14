@@ -1,0 +1,9 @@
+* IIIF Resources
+This Python 3 library models the Resources defined in the International Image Interoperability Framework (IIIF).  It requires Python 3.11 or higher.
+
+It is being developed primarily for use with the PUL Digital Repository (Figgy), and because Figgy's resources are overwhelmingly Manifests the conform with version 2 of the IIIF Presentation API, this early implementation focuses on that version.  However the library is being designed to support different versions of the IIIF Framework.
+
+** Installation
+#+begin_src shell
+  pip install git+ssh://git@github.com:pulibrary/iiif-resources.git
+#+end_src
